@@ -2,8 +2,10 @@ import Linked_List
 
 linked_list_instance = Linked_List.LinkedList('First Linked List')
 
-print(linked_list_instance.head.value)
+print(linked_list_instance.print_list())
 
-print(linked_list_instance.tail.value)
+linked_list_instance.append('Second Linked List')
 
-print(linked_list_instance.length)
+linked_list_instance.append('Third Linked List')
+
+print(linked_list_instance.print_list())
